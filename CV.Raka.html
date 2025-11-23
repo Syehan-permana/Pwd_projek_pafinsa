@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Biodata — Raka Sopian</title>
+  <style>
+    :root{--accent:#2563eb;--bg:#f6f8fb;--card:#ffffff;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;background:var(--bg);color:#0f172a}
+    .container{max-width:980px;margin:28px auto;padding:20px}
+    .card{background:var(--card);border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.06);overflow:hidden}
+    .grid{display:grid;grid-template-columns:260px 1fr;gap:24px}
+    .profile{padding:28px;text-align:center}
+    .avatar{width:140px;height:140px;border-radius:14px;object-fit:cover;border:6px solid #fff;box-shadow:0 6px 18px rgba(2,6,23,0.08);margin:0 auto}
+    h1{font-size:22px;margin:12px 0 4px}
+    p.role{margin:0;color:var(--muted);font-size:14px}
+    .contact{margin-top:18px;text-align:left}
+    .contact li{list-style:none;padding:6px 0;color:var(--muted);font-size:14px}
+    .badge{display:inline-block;background:linear-gradient(90deg,rgba(37,99,235,0.12),rgba(37,99,235,0.06));color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:600;font-size:13px}
+    .main{padding:24px}
+    section{margin-bottom:18px}
+    h2{font-size:16px;margin:0 0 10px}
+    .about{line-height:1.6;color:#111827}
+    .row{display:flex;gap:12px;flex-wrap:wrap}
+    .chip{background:#f3f4f6;border-radius:999px;padding:6px 10px;font-size:13px;color:#111827}
+    .timeline{border-left:2px dashed #e1e5eb;padding-left:14px}
+    .timeline .item{margin-bottom:14px}
+    .skills{display:flex;gap:8px;flex-wrap:wrap}
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .proj{background:#fbfdff;border-radius:10px;padding:12px;border:1px solid #eef5ff}
+    footer{padding:18px;text-align:center;color:var(--muted);font-size:13px}
+    .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+    @media (max-width:720px){.grid{grid-template-columns:1fr}.profile{display:flex;gap:12px;align-items:center;text-align:left}.avatar{width:96px;height:96px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card grid">
+      <aside class="profile">
+        <img src="c:\Users\Amnan\Downloads\Foto.jpg" alt="Foto Profil" class="avatar">
+        <h1>Raka Sopian</h1>
+        <p class="role">Mahasiswa / Web Developer</p>
+        <div style="margin-top:12px"><span class="badge">IFB 2024</span></div>
+
+        <ul class="contact" style="margin-top:18px;padding:0">
+          <li><strong>Email:</strong> rakasopian99@gmail.com</li>
+          <li><strong>Telepon:</strong> +62 877-3533-2679</li>
+          <li><strong>Alamat:</strong> Kp Citampele Rt 001 Rw 004 Mentengsari Cikalongkulon Cianjur, Indonesia</li>
+          <li><strong>Website:</strong> www.rakasopian.dev</li>
+        </ul>
+        <div style="margin-top:16px">
+          <a class="btn" href="#contact">Hubungi</a>
+        </div>
+      </aside>
+
+      <main class="main">
+        <section>
+          <h2>Tentang Saya</h2>
+          <p class="about">Halo! Saya Raka Sopian — mahasiswa jurusan Teknik Informatika dengan minat pada pengembangan web, game development dan pengembangan aplikasi edukasi. saya suka bermain game, bernyanyi, memasak dan makan.</p>
+        </section>
+
+        <section>
+          <h2>Pendidikan</h2>
+          <div class="timeline">
+            <div class="item">
+              <strong>S1 Teknik Informatika — Universitas Suryakancana</strong>
+              <div style="color:var(--muted);font-size:13px">2024 — Sekarang</div>
+              <div style="margin-top:6px;color:#374151;font-size:14px">Fokus: Pengembangan Web, Developer Game</div>
+            </div>
+            <div class="item">
+              <strong>SMA — SMA Pasundan Cikalongkulon</strong>
+              <div style="color:var(--muted);font-size:13px">2021 — 2024</div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Keahlian</h2>
+          <div class="skills">
+            <span class="chip">Admin</span>
+            <span class="chip">Basket</span>
+            <span class="chip">Singing</span>
+            <span class="chip">Cooking</span>
+            <span class="chip">Gaming</span>
+            <span class="chip">Editing</span>
+            <span class="chip">Desainner</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Proyek</h2>
+          <div class="projects">
+            <div class="proj">
+              <strong>Website Portofolio</strong>
+              <div style="color:var(--muted);font-size:13px">HTML, CSS, JS</div>
+              <p style="margin:8px 0 0;font-size:14px;color:#111827">Situs pribadi yang menampilkan proyek dan kontak.</p>
+            </div>
+            <div class="proj">
+              <strong>Aplikasi Booking Sederhana</strong>
+              <div style="color:var(--muted);font-size:13px">Java + SQLite</div>
+              <p style="margin:8px 0 0;font-size:14px;color:#111827">Aplikasi desktop untuk manajemen pemesanan barang.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h2>Kontak</h2>
+          <p style="margin:6px 0 12px;color:var(--muted)">Silakan hubungi saya lewat email atau telepon. Terbuka untuk kolaborasi dan proyek magang.</p>
+          <a href="mailto:raka.sopian@example.com" class="btn">Kirim Email</a>
+        </section>
+
+      </main>
+    </div>
+    <footer class="card" style="margin-top:12px;padding:12px">&copy; 2025 Raka Sopian — Dibuat dengan kegabutan</footer>
+  </div>
+</body>
+</html>
